@@ -3,10 +3,14 @@ var xmove = (right - left)*spd;
 var ymove = (down - up)*spd;
 var ySprint = (run_key*(down - up))*spd;
 var xSprint = (run_key*(right - left))*spd;
+var Atk = (attack_key);
 xspd = xmove + xSprint;
 yspd = ymove + ySprint;
 
-    
+    if Atk == 1 {
+		
+		
+	}
     
    
     //x collision
