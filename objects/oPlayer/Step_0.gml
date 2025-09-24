@@ -1,9 +1,10 @@
 player_input();
 var xmove = (right - left)*spd;
 var ymove = (down - up)*spd;
-
-xspd = xmove;
-yspd = ymove;
+var ySprint = (run_key*(down - up))*spd;
+var xSprint = (run_key*(right - left))*spd;
+xspd = xmove + xSprint;
+yspd = ymove + ySprint;
 
     
     
