@@ -35,6 +35,7 @@
   },
   "name":"Space game top-down collab",
   "resources":[
+    {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},},
     {"id":{"name":"oInit","path":"objects/oInit/oInit.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
@@ -43,6 +44,7 @@
     {"id":{"name":"sBasic","path":"sprites/sBasic/sBasic.yy",},},
     {"id":{"name":"sCollisionMap","path":"sprites/sCollisionMap/sCollisionMap.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"tsBasic","path":"tilesets/tsBasic/tsBasic.yy",},},
     {"id":{"name":"tsCol","path":"tilesets/tsCol/tsCol.yy",},},
   ],
