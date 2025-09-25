@@ -6,7 +6,7 @@ function player_input(){
     right = keyboard_check(vk_right);
     up = keyboard_check(vk_up);
     down = keyboard_check(vk_down);
-    attack_key = keyboard_check_pressed(vk_space);
+    attack_key = mouse_check_button_pressed(1);
     run_key = keyboard_check(vk_shift);
  
 }

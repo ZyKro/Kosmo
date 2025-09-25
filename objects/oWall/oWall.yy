@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oBullet",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oWall",
+  "eventList":[],
   "managed":true,
-  "name":"oBullet",
+  "name":"oWall",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"oBulletS",
-    "path":"sprites/oBulletS/oBulletS.yy",
+    "name":"sWall",
+    "path":"sprites/sWall/sWall.yy",
   },
   "spriteMaskId":null,
   "visible":true,
