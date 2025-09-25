@@ -1,11 +1,18 @@
 player_input();
 var xmove = (right - left)*spd;
 var ymove = (down - up)*spd;
+
 var ySprint = run_key*ymove;
 var xSprint = run_key*xmove;
+
+var ySprint = (run_key*(ymove))*spd;
+var xSprint = (run_key*(xmove))*spd;
+
 var Atk = (attack_key);
 xspd = xmove + xSprint;
 yspd = ymove + ySprint;
+x = oPlayer.x;
+y = oPlayer.y;
 
 #region Debug and more
 var debug_key = keyboard_check_pressed(ord("V"));
@@ -15,8 +22,14 @@ if debug_key {
 }
 #endregion
 
+image_angle = point_direction(x,y,mouse_x,mouse_y);
+
     if Atk == 1 {
-		
+		with(instance_create_layer(x,y,"Bullets", oBullet)){
+			speed = 20;
+			direction = other.image_angle;
+			image_angle = direction;
+		}
 		
 	}
     
